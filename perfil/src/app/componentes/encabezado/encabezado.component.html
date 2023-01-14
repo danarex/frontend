@@ -1,0 +1,31 @@
+
+    <div class="contenedor-encabezado">
+        
+        <img src="{{persona[0].img}}" alt="Daniela Morandin" class="perfil-redondo" width=50%>
+        <div class="checklist-encabezado">
+           <!-- <div class="pencil-encabezado">
+                <a href="./" class="pencil-encabezado">
+                    <i class='bx bxs-edit'></i>
+                </a> </div>   -->
+            <div class="info-encabezado">
+                <p>{{persona[0].sobreMi}}</p>
+                <p class="copy">{{persona[0].ubicacion}}</p>
+                <div class="info-encabezado-logo">
+                    <ul class="info-encabezado-logo">
+                   <li *ngIf="educacion[0].nombreE"> <img src="{{educacion[0].imgE}}"  alt="Argentina Programa" width=10%>
+                <h6>{{educacion[0].nombreE}}</h6></li>
+            <li *ngIf="experiencia[0].nombreE"> <img src="{{experiencia[0].imgE}}" alt="BAM" width=20%>
+            <h6>{{experiencia[0].nombreE}}</h6></li></ul>
+                </div>
+            </div>
+
+            <div class="info-contacto-encabezado">
+                <p>{{persona[0].email}}</p></div>
+            </div>   
+           <!-- <div class="contenedor" id="botones">
+                <a href="/" class="btn btn-light" target="_blank">Tengo interés en</a>
+                <a href="./" class="btn btn-light" target="_blank">Añadir Sección</a>
+                <a href="./" class="btn btn-light" target="_blank">Más</a>
+                </div> -->
+        </div>
+    

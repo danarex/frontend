@@ -1,0 +1,34 @@
+<div class="row">
+    <h2 class="subtitulo">Proyectos</h2>
+    <div class="contenedor">
+
+
+    <section>
+<div class="col lg 1"></div>
+<div class="col-lg-11">
+    <table class="table">
+<tbody class="cont-educacion">
+    <button type="button" class="btn btn-secondary" routerLink="/nuevoproy" *ngIf="isLogged">
+        Nuevo Proyecto
+    </button>
+    <tr *ngFor="let Proyectos of proyectos">
+        <td>
+            <h4>{{Proyectos.nombreE}}</h4>
+        </td>
+        <td>{{Proyectos.descripcionE}}</td>
+        <td>{{Proyectos.fechaE}}</td>
+        <td>{{Proyectos.linkE}}</td>
+        <td *ngIf="isLogged">
+            <button class="btn btn-light" routerLink="/editproy/{{Proyectos.id}}">
+                <i class="bi bi-pencil-fill"></i> EDITAR</button>
+        </td>
+        <td *ngIf="isLogged">
+            <button class="btn btn-info" (click)="delete(Proyectos.id)">
+                <i class="bi bi-trash-fill"></i> BORRAR</button>
+        </td>
+    </tr>
+</tbody>
+</table>
+</div>
+
+

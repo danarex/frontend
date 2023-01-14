@@ -1,0 +1,23 @@
+
+/*Header*/
+
+header{
+    height:100vh;
+    background-image: linear-gradient(to top, rgba(104, 226, 253, 0.5) 0%, rgba(255, 179, 166, 0.5) 100%), url(/assets/naturaleza-header.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.head{
+    text-align:center;
+    padding:0;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgb(255, 255, 255);
+
+}

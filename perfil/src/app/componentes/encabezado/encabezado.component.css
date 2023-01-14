@@ -1,0 +1,28 @@
+
+
+
+.btn-light {
+    display:inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width:150px;
+    height:100%;
+    font-family:inherit;
+    font-size: medium;;
+    font-weight: 400;
+    border-radius:5px;
+    margin:2px;
+    padding:5px;
+    text-decoration: none;
+    color:white;
+    background-color: #7edbdc;
+    
+    }
+    
+    .btn-light:hover {
+        background-color: #fff;
+        border: 2px solid rgba(0, 0, 0, 0.2);
+        color:black;
+    }

@@ -1,0 +1,22 @@
+.img-education {
+    display:block;
+    float:left;
+    width:40px;
+    margin:0 auto;
+    flex-wrap: wrap;
+}
+
+
+.education {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.cont-educacion {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20 px;
+}

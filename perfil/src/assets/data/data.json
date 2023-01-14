@@ -1,0 +1,85 @@
+{
+	"name": "Daniela Morandin",
+	"sobreMi": "ng ser",
+	"backImage": "/img/naturaleza-header.jpg",
+	"image": "https://i.ibb.co/wS9j0X2/perfil-redondo.jpg",
+	"position": "Data Entry",
+	"company": {
+		"name": "BA Marketing",
+		"img": "https://i.ibb.co/N9yD461/BAM.jpg",
+		"url": "#"
+	},
+	"school": {
+		"name": "Argentina Programa",
+		"img": "https://i.ibb.co/yBJyBbq/Aagentina-programa.png",
+		"url": "#"
+	},
+	"ubication": "Buenos Aires, Argentina",
+	"about": "Data Entry en BA Marketing. Estudiante en #YoProgramo",
+	"contact":"Información de contacto",
+	"acercaDe": "Actualmente estudiante de Full Stack Developer en el programa del Gobierno #YoProgramo",
+	"experience": {
+		"position": "Data Entry",
+		"company": "BA Marketing, 2022",
+		"img": "https://i.ibb.co/N9yD461/BAM.jpg",
+		"mode": "part time",
+		"start": "Marzo 20212",
+		"end": "Actualmente trabajo aquí"
+	},
+	"experience2": {
+		"position": "Empleada Administrativa",
+		"company": "Zapatería Febo, 2020",
+		"img": "https://i.ibb.co/7KFr6HK/FB.jpg",
+		"mode": "part time",
+		"start": "Septiembre 2012",
+		"end": "Diciembre 2020"
+	},
+	"education": {
+		"position": "Estudiante",
+		"company": "Argentina Programa,2022",
+		"img": "https://i.ibb.co/yBJyBbq/Aagentina-programa.png",
+		"career": "Full Stack Jr.",
+		"start": "julio 2021",
+		"end": "actualidad"
+	},
+	"education2": {
+		"position": "Estudiante de Inglés Avanzado",
+		"company": "Liceo Británico,2005",
+		"img": "https://i.ibb.co/j6v3BCX/liceo.jpg",
+		"career": "First Certificate Exam, Advanced Exam",
+		"start": "Marzo 2001",
+		"end": "Diciembre 2005"
+	},
+	"proyecto1":{
+		"name": "Proyecto 1",
+		"date":"Diciembre 2005", 
+		"description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate adipisci expedita quasi totam? Repellat error maxime ad nam quis fuga sunt eos nobis dignissimos, facere ex consectetur corrupti laborum illo. ",
+		"img":"https://i.ibb.co/d5Msp09/boho-1.jpg",
+		"link":"https://i.ibb.co/"
+
+	},
+	"proyecto2":{
+		"name": "Proyecto 2",
+		"date":"Marzo 2015", 
+		"description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate adipisci expedita quasi totam? Repellat error maxime ad nam quis fuga sunt eos nobis dignissimos, facere ex consectetur corrupti laborum illo. ",
+		"img":"https://i.ibb.co/wrD6PFT/boho-2.jpg",
+		"link":"https://i.ibb.co/"
+
+	},
+	"proyecto3":{
+		"name": "Proyecto 2",
+		"date":"Marzo 2015", 
+		"description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate adipisci expedita quasi totam? Repellat error maxime ad nam quis fuga sunt eos nobis dignissimos, facere ex consectetur corrupti laborum illo. ",
+		"img":"https://i.ibb.co/qmCrCXr/boho-3.jpg",
+		"link":"https://i.ibb.co/"
+		
+
+	}
+
+
+
+
+
+
+
+}
