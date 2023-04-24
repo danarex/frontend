@@ -7,8 +7,68 @@
                     <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="experiencia.nombreE" required>
                 </div>
                 <div class="form-group">
-                    <label for="descripcionE">Descripcion de la tarea</label>
+                    <label for="puestoE">Puesto</label>
                     <input type="text" class="form-control" id="puestoE" name="puestoE" [(ngModel)]="experiencia.puestoE" required>
+                </div>
+                <div class="form-group">
+                    <label for="inicioE">Fecha de Inicio</label>
+                    <input type="text" class="form-control" id="inicioE" name="inicioE" [(ngModel)]="experiencia.inicioE" required>
+                </div>
+                <div class="form-group">
+                    <label for="finE">Fecha de finalización</label>
+                    <input type="text" class="form-control" id="finE" name="finE" [(ngModel)]="experiencia.finE" required>
+                </div>
+                <button class="btn btn-primary">
+                    Actualizar
+                </button>
+            </form>
+        </div>
+    </div>
+</div><div class="container" *ngIf="experiencia">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group ">
+                    <label for="nombreE">Nombre de la empresa</label>
+                    <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="experiencia.nombreE" required>
+                </div>
+                <div class="form-group">
+                    <label for="puestoE">Puesto</label>
+                    <input type="text" class="form-control" id="puestoE" name="puestoE" [(ngModel)]="experiencia.puestoE" required>
+                </div>
+                <div class="form-group">
+                    <label for="inicioE">Fecha de Inicio</label>
+                    <input type="text" class="form-control" id="inicioE" name="inicioE" [(ngModel)]="experiencia.inicioE" required>
+                </div>
+                <div class="form-group">
+                    <label for="finE">Fecha de finalización</label>
+                    <input type="text" class="form-control" id="finE" name="finE" [(ngModel)]="experiencia.finE" required>
+                </div>
+                <button class="btn btn-primary">
+                    Actualizar
+                </button>
+            </form>
+        </div>
+    </div>
+</div><div class="container" *ngIf="experiencia">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group ">
+                    <label for="nombreE">Nombre de la empresa</label>
+                    <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="experiencia.nombreE" required>
+                </div>
+                <div class="form-group">
+                    <label for="puestoE">Puesto</label>
+                    <input type="text" class="form-control" id="puestoE" name="puestoE" [(ngModel)]="experiencia.puestoE" required>
+                </div>
+                <div class="form-group">
+                    <label for="inicioE">Fecha de Inicio</label>
+                    <input type="text" class="form-control" id="inicioE" name="inicioE" [(ngModel)]="experiencia.inicioE" required>
+                </div>
+                <div class="form-group">
+                    <label for="finE">Fecha de finalización</label>
+                    <input type="text" class="form-control" id="finE" name="finE" [(ngModel)]="experiencia.finE" required>
                 </div>
                 <button class="btn btn-primary">
                     Actualizar
