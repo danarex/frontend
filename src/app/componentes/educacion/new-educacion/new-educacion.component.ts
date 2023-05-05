@@ -22,7 +22,7 @@ export class NewEducacionComponent implements OnInit {
   }
 
   onCreate(): void{
-    const educacion = new Educacion(this.nombreE, this.tituloE,this.inicioE, this.finE,this.imgE);
+    const educacion = new Educacion(this.nombreE, this.tituloE,this.imgE, this.inicioE, this.finE);
     this.educacionS.save(educacion).subscribe({
       next:data =>{
         alert("Educacion añadida correctamente");
